@@ -2,7 +2,7 @@
   {
     "name": "The Road(World Tour Website)",
     "desc": "World Tour Package providing website built using HTMl, CSS and JavaScript.",
-    "image": "TheRoad.png",
+    "image": "assets/images/projects/TheRoad.png",
     "category": "mern",
     "links": {
       "view": "https://software-lab-project-1.github.io/World-Tour-Website/",
