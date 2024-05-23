@@ -757,6 +757,41 @@ header .navbar ul li a:hover {
 .work .viewall .btn:hover i {
   transform: translateX(5px);
 }
+.project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.project img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.project-details {
+    text-align: center;
+}
+
+.project-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #007bff;
+}
+
+@media (max-width: 768px) {
+    .project {
+        flex-direction: column;
+    }
+
+    .project img {
+        width: 100%;
+    }
+}
+
 /* work section ends */
 
 /* experience section starts */
